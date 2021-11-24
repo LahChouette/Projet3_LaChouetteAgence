@@ -22,6 +22,15 @@
     align-items: center;
 }
 
+.text-01 {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-02 {
+    padding-top: 10px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -976,10 +985,7 @@ h4 {
         float: left;
         margin-left: 10px;
     }
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
+
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
